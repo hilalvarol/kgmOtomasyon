@@ -1,0 +1,15 @@
+C:\Users\hilal varol\source\repos\KGM_Personal\KGM_Personal\bin\Debug\KGM_Personal.exe.config
+C:\Users\hilal varol\source\repos\KGM_Personal\KGM_Personal\bin\Debug\KGM_Personal.exe
+C:\Users\hilal varol\source\repos\KGM_Personal\KGM_Personal\bin\Debug\KGM_Personal.pdb
+C:\Users\hilal varol\source\repos\KGM_Personal\KGM_Personal\obj\Debug\KGM_Personal.csproj.AssemblyReference.cache
+C:\Users\hilal varol\source\repos\KGM_Personal\KGM_Personal\obj\Debug\KGM_Personal.PersonelGoruntule.resources
+C:\Users\hilal varol\source\repos\KGM_Personal\KGM_Personal\obj\Debug\KGM_Personal.Properties.Resources.resources
+C:\Users\hilal varol\source\repos\KGM_Personal\KGM_Personal\obj\Debug\KGM_Personal.csproj.GenerateResource.cache
+C:\Users\hilal varol\source\repos\KGM_Personal\KGM_Personal\obj\Debug\KGM_Personal.csproj.CoreCompileInputs.cache
+C:\Users\hilal varol\source\repos\KGM_Personal\KGM_Personal\obj\Debug\KGM_Personal.exe
+C:\Users\hilal varol\source\repos\KGM_Personal\KGM_Personal\obj\Debug\KGM_Personal.pdb
+C:\Users\hilal varol\source\repos\KGM_Personal\KGM_Personal\obj\Debug\KGM_Personal.PersonelUygulamaArama.resources
+C:\Users\hilal varol\source\repos\KGM_Personal\KGM_Personal\obj\Debug\KGM_Personal.PersonelUygulamaGüncelleme.resources
+C:\Users\hilal varol\source\repos\KGM_Personal\KGM_Personal\obj\Debug\KGM_Personal.PersonelUygulamaEkleme.resources
+C:\Users\hilal varol\source\repos\KGM_Personal\KGM_Personal\obj\Debug\KGM_Personal.PersonelUygulamaSilme.resources
+C:\Users\hilal varol\source\repos\KGM_Personal\KGM_Personal\obj\Debug\KGM_Personal.Giris.resources

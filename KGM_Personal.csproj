@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{737376FB-9B97-43B1-ADC8-A866F0E57D5B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>KGM_Personal</RootNamespace>
+    <AssemblyName>KGM_Personal</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Giris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Giris.Designer.cs">
+      <DependentUpon>Giris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KGM_Personal_ListDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KGM_Personal_ListDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PersonelGoruntule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonelGoruntule.Designer.cs">
+      <DependentUpon>PersonelGoruntule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonelUygulamaArama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonelUygulamaArama.Designer.cs">
+      <DependentUpon>PersonelUygulamaArama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonelUygulamaEkleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonelUygulamaEkleme.Designer.cs">
+      <DependentUpon>PersonelUygulamaEkleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonelUygulamaGüncelleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonelUygulamaGüncelleme.Designer.cs">
+      <DependentUpon>PersonelUygulamaGüncelleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonelUygulamaSilme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonelUygulamaSilme.Designer.cs">
+      <DependentUpon>PersonelUygulamaSilme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Giris.resx">
+      <DependentUpon>Giris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonelGoruntule.resx">
+      <DependentUpon>PersonelGoruntule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonelUygulamaArama.resx">
+      <DependentUpon>PersonelUygulamaArama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonelUygulamaEkleme.resx">
+      <DependentUpon>PersonelUygulamaEkleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonelUygulamaGüncelleme.resx">
+      <DependentUpon>PersonelUygulamaGüncelleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonelUygulamaSilme.resx">
+      <DependentUpon>PersonelUygulamaSilme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="KGM_Personal_ListDataSet.xsc">
+      <DependentUpon>KGM_Personal_ListDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="KGM_Personal_ListDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>KGM_Personal_ListDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="KGM_Personal_ListDataSet.xss">
+      <DependentUpon>KGM_Personal_ListDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
